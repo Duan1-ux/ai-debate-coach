@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+storage/
+instance/
