@@ -7,6 +7,8 @@ htmlcov/
 .venv/
 .DS_Store
 .env
+.env.*
+!.env.example
 
 *.db
 *.db-journal
@@ -15,3 +17,12 @@ htmlcov/
 
 storage/
 instance/
+
+# Course handoff artifacts are kept outside the GitHub code repository.
+*.docx
+*.pptx
+*.pdf
+
+# Local logs and coverage exports.
+*.log
+coverage.xml

@@ -254,8 +254,8 @@ uv run pytest -m real_api
 
 说明：
 
-- 当前 `.env` 已配置 `LLM_API_KEY`。
-- 真实 API 测试可以运行。
+- 如需运行真实 API 测试，需要在本地 `.env` 中配置 `LLM_API_KEY`。
+- 在具备有效 API Key 的环境下，真实 API 测试可以运行。
 - 执行过程中 OpenRouter 可能触发免费模型限流，测试代码会将限流作为可接受的外部服务状态处理，并验证相关代码路径。
 
 ### 10.3 当前统计
